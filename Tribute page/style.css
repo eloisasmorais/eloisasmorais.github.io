@@ -120,6 +120,7 @@ footer {
     }
 
     .awards-list, .albums-list {
+        font-size: 20px;
         display: flex;
         flex-direction: column;
         align-items: center;
