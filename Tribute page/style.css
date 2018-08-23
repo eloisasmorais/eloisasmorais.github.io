@@ -110,7 +110,7 @@ footer {
     padding: 25px;
 }
 
-@media screen and (orientation: portrait) {
+@media only screen and (orientation: portrait) {
     #lists {
         display: flex;
         flex-direction: column;
