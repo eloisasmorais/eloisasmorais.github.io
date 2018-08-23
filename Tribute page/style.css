@@ -111,4 +111,8 @@ footer {
         border-bottom: solid .3px #ffffff;
         flex-direction: column;
     }
+
+    .awards-list, .albums-list {
+        list-style-type: none;
+    }
 }
