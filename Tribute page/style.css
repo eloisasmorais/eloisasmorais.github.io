@@ -50,6 +50,9 @@ body {
     transform: rotateY(50deg) skew(0deg, 10deg);
 }
 
+section {
+    display: flex;
+}
 
 #tribute-info {
     margin: 0 auto;
@@ -57,9 +60,9 @@ body {
     text-align: center;
 }
 
-p {
+p { 
+
     align-self: center;
-    /* width: 850px; */
     flex-shrink: 10;
     font-size: 20px;    
 }
@@ -108,14 +111,20 @@ footer {
 
 @media screen and (max-width: 600px) {
     #lists {
-        align-items: center;  
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         border-top: solid .3px #FFF;
         border-bottom: solid .3px #ffffff;
-        flex-direction: column;
     }
 
     .awards-list, .albums-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         list-style-type: none;
+        padding: 0;
+        margin: 0;
     }
 
     .awards-list {
