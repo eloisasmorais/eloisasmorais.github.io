@@ -89,6 +89,8 @@ p {
 
 .list-2 {
     float: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .albums, .awards {
@@ -114,5 +116,9 @@ footer {
 
     .awards-list, .albums-list {
         list-style-type: none;
+    }
+
+    .awards-list {
+        margin-bottom: 24px;
     }
 }
