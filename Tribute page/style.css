@@ -61,10 +61,10 @@ section {
 }
 
 p { 
-
     align-self: center;
     flex-shrink: 10;
     font-size: 20px;    
+    padding: 0 100px;
 }
 
 #company {
@@ -109,7 +109,7 @@ footer {
     padding: 25px;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 360px) {
     #lists {
         display: flex;
         flex-direction: column;
