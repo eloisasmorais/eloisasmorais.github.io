@@ -1,12 +1,41 @@
+@font-face {
+    font-family: "Bebas Neue";
+    src: url(./assets/BebasNeue-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Paramore";
+    src: url(./assets/Fast\ In\ My\ Car.ttf);
+}
+
 body {
+    display: block;
     background: linear-gradient(#d8a6cb, #9996cb);
+    font-family: "Bebas Neue";
 }
 
 #image {
-    height: 0.;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 350px;
     width: auto;
+    max-width: 100%;
 }
 
+#img-caption {
+    margin-top: 10px;
+    text-align: center;
+}
+
+#title {
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFF;
+} 
 .left {
     font-size: 75px;
     display: inline-block;
@@ -19,15 +48,19 @@ body {
     transform: rotateY(50deg) skew(0deg, 10deg);
 }
 
-#title {
-    font-family: monospace;
+section {
+    margin: 0 auto;
+    padding: 15px;
+    width: 850px;
     text-align: center;
-    margin-top: 65px;
-    margin-bottom: 65px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: #FFF;
-} 
+    font-size: 20px;
+}
 
-#image {
+#band-title {
+    font-family: Paramore;
+    font-size: 24px;
+}
+
+footer {
+    text-align: center;
 }
