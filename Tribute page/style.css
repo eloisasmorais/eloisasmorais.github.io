@@ -59,7 +59,7 @@ body {
 
 p {
     align-self: center;
-    width: 850px;
+    /* width: 850px; */
     flex-shrink: 10;
     font-size: 20px;    
 }
@@ -102,4 +102,13 @@ footer {
     text-align: center;
     clear: both;
     padding: 25px;
+}
+
+@media screen and (max-width: 600px) {
+    #lists {
+        align-items: center;  
+        border-top: solid .3px #FFF;
+        border-bottom: solid .3px #ffffff;
+        flex-direction: column;
+    }
 }
