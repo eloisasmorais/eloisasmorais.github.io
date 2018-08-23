@@ -5,5 +5,29 @@ body {
 #image {
     height: 0.;
     width: auto;
+}
 
+.left {
+    font-size: 75px;
+    display: inline-block;
+    transform: rotateY(50deg) skew(0deg, -10deg);
+}
+
+.right {
+    font-size: 75px;
+    display: inline-block;
+    transform: rotateY(50deg) skew(0deg, 10deg);
+}
+
+#title {
+    font-family: monospace;
+    text-align: center;
+    margin-top: 65px;
+    margin-bottom: 65px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFF;
+} 
+
+#image {
 }
