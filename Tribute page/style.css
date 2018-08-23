@@ -132,4 +132,11 @@ footer {
     .awards-list {
         margin-bottom: 24px;
     }
+
+    footer {
+        text-align: center;
+        clear: both;
+        padding: 25px;
+        font-size: 20px;
+    }
 }
