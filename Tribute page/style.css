@@ -12,8 +12,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: linear-gradient(#d8a6cb, #9996cb);
     font-family: "Bebas Neue";
+    background: linear-gradient(#d8a6cb, #9996cb);
+    background-repeat: no-repeat;
 }
 
 #image {
