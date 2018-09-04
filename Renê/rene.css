@@ -1,0 +1,112 @@
+body {
+    font-family: 'Aldrich', sans-serif;
+}
+
+.title {
+    text-align: center;
+    height: 80px;
+    margin: -10px -8px 10px -8px;
+    padding-top: 45px;
+    background-color: rgba(89, 82, 255, 0.2);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: black solid .5px;
+    border-radius: 20px;
+}
+
+h4 {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.form-heading {
+    margin-bottom: 0;
+}
+
+.section-paragraph {
+    width: 420px;
+    margin-top: 0;
+    margin-bottom: 22px;
+}
+
+li {
+    display: flex;
+    list-style: none;
+    align-self: center;
+}
+
+.section-list {
+    width: 450px;
+    margin-top: 0;
+    margin-bottom: 22px;
+}
+
+.font {
+    font-family: 'Arima Madurai', cursive;
+}
+
+.form {
+    display: flex;
+    width: 400px;
+    margin-top: 0;
+    flex-direction: column;
+}
+
+input {
+    border-radius: 10px;
+    height: 25px;
+    width: 100%;
+}
+
+.btn { 
+    border-radius: 10px;
+    width: 15%;
+    align-self: center;
+    margin-top: 10px;
+    margin-bottom: 22px;
+}
+
+li {
+    align-self: center;
+    margin-bottom: 10px;
+}
+
+.image {
+    align-self: center;
+}
+
+img {
+    width: 280px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 22px 0;
+    font-size: 12px;
+}
+
+footer {
+    text-align: center;
+    background: rgba(89, 82, 255, 0.2);
+    height: 40px;
+    margin: 10px -8px -10px -8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

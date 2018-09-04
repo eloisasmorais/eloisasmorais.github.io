@@ -1,0 +1,93 @@
+<!-- Sobre o trabalho
+Inicialmente, escolha um tema para o seu projeto. Em seguida, desenvolva seu projeto em duas partes:  
+
+1) Prototipação
+  Telas e navegação em uma ferramenta de Mockup. Exemplo: NinjaMock. Planeje e desenhe uma aplicação em que exista uma página (ou mais) com conteúdo estático, por exemplo, descrevendo o serviço da aplicação. Deverá haver, também, uma (ou mais) páginas com recursos de manipulação de dados, incluindo cadastro, listagem, remoção e atualização de dados.   
+
+2) Codificação
+  Codificar duas telas: uma com conteúdo estático e outra com conteúdo dinâmico. Esta última deverá prever uma manipulação de dados, incluindo inserção, remoção e listagem. Os seguintes recursos devem estar presentes em uma ou ambas as telas:  
+
+HTML Básico
+a. Cabeçalho (head) com título <title>;
+b. Título (dentre h1 e h6);
+c. Parágrafo <p>;
+d. Separador <br>;
+e. Regiões <div>;
+f. Imagem;
+g. Link.  
+
+HTML Form
+a. Text
+b. Checkbox
+c. Radio
+d. Select simples ou múltiplo
+e. Botão  
+
+CSS / Bootstrap
+a. Table
+b. Button
+c. Grids
+d. Label
+e. Inputs
+f. Navbar
+
+JavaScript e jQuery
+a. Uma ou mais funções;
+b. Um ou mais eventos onload, onfocus e onclick;
+c.  Alguma manipulação de dados digitados no formulário;
+d. Função de callback;
+e. Dois ou mais efeitos. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Renê é um cu</title>
+    <link href="https://fonts.googleapis.com/css?family=Aldrich" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arima+Madurai" rel="stylesheet">    
+    <link rel="stylesheet" href="rene.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="title">Renê é um cu</h1>
+    </header>
+    <main>
+        <section class="section">
+            <h3 class="section-title">Resumo</h3>
+            <p class="section-paragraph font">Renê Victor é o maior pau no cu que vc encontrará em toda a sua vida. 
+                Todas as coisas que ele disser invariávelmente causarão uma úlcera enorme em seu estômago e te farão perder a fé na humanidade
+                cada vez mais. É isto.
+            </p>
+        </section>
+        <section class="section">
+            <h3 class="section-title">Frases memoráveis</h3>
+            <ul class="section-list font">
+                <li>Sou burro</li>
+                <li>Seu cu no cu</li>
+                <li>Sou feio</li>
+                <li>Sou gordo</li>
+                <li>Sou velho</li>
+                <li>Vi uma saudável no ônibus, fiz nada</li>
+            </ul>
+        </section>
+        <section class="section">
+            <h3 class="form-heading">Insira uma coisa que o Renê nunca fez</h3>
+            <h4>Dica: foram várias.</h4>
+            <form action="" class="form">
+                <input type="text" id="userInput">
+            </form>
+            <button class="btn">Enviar!</button>
+            <ul id="list" class="section-list font"></ul>
+        </section>
+        <section class="section">
+            <figure class="image">
+                <img src="rene.jpg" alt="Foto de uma Iguana das Américas">
+                <caption>Foto de Renê Victor em baixa qualidade para não ferir os olhos de ninguém</caption>
+            </figure>
+        </section>
+    </main>
+    <footer>
+        <p>Não seja como Renê, clique neste <a href="https://bit.ly/2Py2rrK" target="_blank">link</a></p>
+    </footer>
+    <script src="rene.js"></script>
+</body>
+</html>
