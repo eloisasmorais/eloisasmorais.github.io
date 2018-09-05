@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Descubra</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="survey">
+        <h1 id="title">Descubra survey</h1>
+        <p id="description">Find out what this survey is about.</p>
+        <form action="" id="survey-form">
+            <div class="dados">
+                <label id="name-label" for="name">Name: </label><input type="text" name="name" id="name" placeholder="Enter name" required><br>
+                <label id="email-label" for="email">Email: </label> <input type="email" name="email" id="email" placeholder="Enter email" required><br>
+                <label id="number-label" for="number">Idade: </label> <input type="number" name="age" id="number" min="1" max="3" placeholder="Enter age" required><br>
+            </div>
+            <label for="momentos-ngp" id="momentos-ngp">Selecione seu momento favorito:</label>
+            <div class="momentos">
+                    <select name="momentoNgp" id="dropdown">
+                        <option disabled selected value>Momento favorito</option>
+                        <option value="confissoes">Confissões da madrugada</option>
+                        <option value="feitos">Feitos dizendo que odeia a EA</option>
+                        <option value="cu">Galera falando sobre c e r t o s assuntos</option>
+                        <option value="rages">Incontáveis rages com Overwatch</option>
+                        <option value="rene">Renê afirmando que irá ao psicólogo</option>
+                        <option value="overwatch">Todos dizendo que irão jogar o competitivo do Overwatch</option>
+                        <option value="william">William talaricando o namorado da menina da outra cidade</option>
+                        <option value="xusquito">Xusquito jogando jogos online</option>
+                        <option value="linux">Xusquito instalando linux</option>
+                    </select>
+            </div>
+            <label for="pergunta" id="pergunta">Você frequentaria o chat do NGP no telegram?</label>
+            <div class="recomendacao">
+                <label for="recomendacao">
+                    <input type="radio" name="radio-button" value="1">
+                    Sim
+                </label>
+                <label for="recomendacao">
+                    <input type="radio" name="radio-button" value="2">
+                    Não
+                </label>
+            </div>
+            <div class="votacao">
+                <label for="votacao">
+                    Em quem você daria ban se estivesse no grupo do NGP?
+                </label>
+                <ul class="checkbox">
+                    <li>
+                        <input type="checkbox" name="willas" value="1">WILLIAM
+                    </li>
+                    <li>
+                        <input type="checkbox" name="rene" value="2">Renê
+                    </li>
+                    <li>
+                        <input type="checkbox" name="xusquito" value="3">Xusquito
+                    </li>
+                    <li>
+                        <input type="checkbox" name="feitos" value="4">Feitos
+                    </li>
+                    <li>
+                        <input type="checkbox" name="eloisa" value="5">Eloisa
+                    </li>
+                    <li>
+                        <input type="checkbox" name="caio" value="6">Caio
+                    </li>
+                </ul>
+            </div>
+            <div class="text-area">
+                <h3>Considerações finais:</h3>
+                <textarea name="comentario" id="comentario" placeholder="Envie seu xingamento"></textarea>
+            </div>
+            <button id="submit" type="submit">Enviar</button>
+        </form>
+    </main>
+</body>
+</html>

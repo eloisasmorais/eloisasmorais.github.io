@@ -1,0 +1,73 @@
+#title {
+    text-align: center;
+    border-bottom: solid 1px #8DF;
+}
+
+.survey {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    width: 750px;
+    background-color: rgb(115, 152, 214);
+}
+
+#description {
+    margin-top: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.dados {
+    margin-bottom: 10px;
+}
+
+.momentos {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#pergunta {
+    margin-bottom: 10px;
+}
+
+.checkbox { 
+    list-style: none; 
+    flex-wrap: wrap;
+}
+
+input {
+    border-radius: 8px;
+    width: 150px;
+    margin-bottom: 7px;
+}
+  
+.recomendacao input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 13px;
+}
+
+.votacao input {
+    width: 13px;
+}
+
+ul {
+    padding: 0;
+}
+
+textarea {
+    width: 550px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+#submit {
+    display: flex;
+    align-self: center;
+    margin-bottom: 10px;
+}
+
