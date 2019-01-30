@@ -12,6 +12,7 @@ h1, h2, h3, h4, h5, h6, button {
 
 .container {
     height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
