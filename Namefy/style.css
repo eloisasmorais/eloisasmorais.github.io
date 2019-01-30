@@ -184,7 +184,7 @@ and (max-width: 500px) {
     }
 }
 
-@media screen and (min-width: 700px) and (max-width: 1200px) {
+@media screen and (min-width: 501px) and (max-width: 1200px) {
     .functionality {
         position: relative;
         top: 8vh;
