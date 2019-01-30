@@ -82,8 +82,6 @@ h1, h2, h3, h4, h5, h6, button {
     font-weight: bold;
     background-color: #1DB954;
     color: #fff;
-    position: relative;
-    bottom: -5vh;
 }
 
 
@@ -126,10 +124,10 @@ and (max-device-width: 800px) {
         width: 100%;
     }
 
-    /* .functionality {
+    .functionality {
         border: red solid 2px;
-        width: 100%;
-    } */
+        width: 70%;
+    }
 
     #user-input {
         height: 40px;
