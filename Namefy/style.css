@@ -30,7 +30,7 @@ h1, h2, h3, h4, h5, h6, button {
 .header {
     text-align: center;
     height: auto;
-    margin-top: 40px;
+    margin-top: 25px;
     margin-bottom: 35px;
     /* position: relative;
     top: 5vh; */
@@ -126,7 +126,7 @@ a {
 }
 
 @media screen and (min-width: 300px) 
-and (max-width: 1200px) {
+and (max-width: 600px) {
     .container {
         overflow: hidden;
         width: 100%;
@@ -177,5 +177,11 @@ and (max-width: 1200px) {
 
     .btn {
         width: 300px;
+        position: relative;
+        bottom: 20vh;
     }
 }
+
+/* @media screen and (min-width: 700px) and (max-width: 1200px) {
+
+} */
