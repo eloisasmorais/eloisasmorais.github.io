@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Namefy - Randomly name your Spotify playlist</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="title">Namefy</h1>
+            <h4>Randomly name your Spotify playlist!</h4>
+        </header>
+        <section class="functionality">
+            <label for="user-input" class="label">Does your playlist have a theme? Put it down here:</label>
+            <input type="text" id="user-input" onchange="getUserInput(event)"" placeholder="Start typing...">
+            <div id="playlist-name">
+                <h3>The name of you playlist will show up here!</h3>
+            </div>
+            <button class="btn" onclick="generateName()">Generate Name</button>
+        </section>
+        <footer class="footer">    
+            <p>Made by Eloisa Morais</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
