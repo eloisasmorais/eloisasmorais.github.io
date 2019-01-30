@@ -31,8 +31,8 @@ h1, h2, h3, h4, h5, h6, button {
     text-align: center;
     position: relative;
     top: 5vh;
-    height: auto;
-    margin-bottom: 160px;
+    /* height: auto;
+    margin-bottom: 160px; */
 }
 
 .title {
@@ -114,27 +114,27 @@ a {
     text-decoration: underline;
 }
 
-@media screen and (min-device-width: 300px) 
-and (max-device-width: 800px) {
+@media screen and (min-width: 300px) 
+and (max-width: 1200px) {
     * {
-        height: 100vh;
+        height: 90vh;
         width: 100%;
         margin: 0;
     }
-    
+
     .container {
         overflow: hidden;
         width: 100%;
     }
 
     .functionality {
-        border: red solid 2px;
+        /* border: red solid 2px; */
         width: 90%;
     }
 
     #user-input {
         height: 40px;
-        width: 100%;
+        width: 90%;
         margin-top: 20px;
         margin-bottom: 20px;
         background-color: #282828;
@@ -145,6 +145,6 @@ and (max-device-width: 800px) {
     }
 
     .btn {
-        width: 100%;
+        width: 337px;
     }
 }

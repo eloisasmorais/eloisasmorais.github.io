@@ -25,7 +25,7 @@ generateName = async () => {
         generated = generated.trim();
         
         finalName = document.getElementById("playlist-name");
-        finalName.innerHTML = `<h3 class="generated">"${generated}"</h3>`;
+        finalName.innerHTML = `<p class="generated">"${generated}"</p>`;
     }
     document.getElementById("user-input").value = '';
 }
