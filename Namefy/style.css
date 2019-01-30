@@ -32,10 +32,6 @@ h1, h2, h3, h4, h5, h6, button {
     height: auto;
     margin-top: 25px;
     margin-bottom: 35px;
-    /* position: relative;
-    top: 5vh; */
-    /* height: auto;
-    margin-bottom: 160px; */
 }
 
 .title {
@@ -47,7 +43,6 @@ h1, h2, h3, h4, h5, h6, button {
 }
 
 .functionality {
-    /* border: red solid 2px; */
     display: inline-block;
     width: 40%;
     text-align: center;
@@ -79,10 +74,6 @@ h1, h2, h3, h4, h5, h6, button {
 #playlist-name p {
     height: auto;
 }
-
-/* .generated {
-    height: 150px;
-} */
 
 .btn {
     width: 313px;
@@ -150,7 +141,6 @@ and (max-width: 600px) {
     }
 
     .functionality {
-        /* border: red solid 2px; */
         width: 90%;
     }
 
