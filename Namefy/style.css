@@ -173,12 +173,14 @@ and (max-width: 600px) {
     
     #playlist-name p {
         height: auto;
+        position: relative;
+        top: 15vh;
     }
 
     .btn {
         width: 300px;
         position: relative;
-        bottom: 20vh;
+        top: 20vh;
     }
 }
 
