@@ -29,14 +29,19 @@ h1, h2, h3, h4, h5, h6, button {
 
 .header {
     text-align: center;
-    position: relative;
-    top: 5vh;
+    /* position: relative;
+    top: 5vh; */
     /* height: auto;
     margin-bottom: 160px; */
+    margin-top: 15px;
 }
 
 .title {
     margin-bottom: 5px;
+}
+
+.subtitle {
+    font-size: 1em;
 }
 
 .functionality {
@@ -125,6 +130,18 @@ and (max-width: 1200px) {
     .container {
         overflow: hidden;
         width: 100%;
+    }
+
+    .title {
+        font-size: 1.5em;
+    }
+
+    .subtitle  {
+        font-size: .7em;
+    }
+    
+    .functionality .label {
+        font-size: .8em;
     }
 
     .functionality {
