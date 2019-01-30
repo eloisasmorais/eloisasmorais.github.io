@@ -127,12 +127,6 @@ a {
 
 @media screen and (min-width: 300px) 
 and (max-width: 1200px) {
-    * {
-        height: 90vh;
-        width: 100%;
-        margin: 0;
-    }
-
     .container {
         overflow: hidden;
         width: 100%;
@@ -172,7 +166,16 @@ and (max-width: 1200px) {
         letter-spacing: .5px;
     }
 
+    #playlist-name {
+        height: 100px;
+        margin-bottom: 100px;
+    }
+    
+    #playlist-name p {
+        height: auto;
+    }
+
     .btn {
-        width: 337px;
+        width: 300px;
     }
 }
