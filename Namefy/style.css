@@ -38,11 +38,8 @@ h1, h2, h3, h4, h5, h6, button {
 }
 
 .functionality {
-    /* border: red solid 2px; */
+    border: red solid 2px;
     display: inline-block;
-    /* height: 50px; */
-    /* position: relative; */
-    /* top: -285px; */
     width: 40%;
     text-align: center;
     position: relative;
@@ -122,14 +119,19 @@ a {
         width: 100%;
         margin: 0;
     }
+    
+    .container {
+        overflow: hidden;
+        width: 100%;
+    }
 
     .functionality {
         width: 100%;
     }
 
     #user-input {
-        height: 30px;
-        width: 80%;
+        height: 40px;
+        width: 100%;
         margin-top: 20px;
         margin-bottom: 20px;
         background-color: #282828;
