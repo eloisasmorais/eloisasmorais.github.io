@@ -1,6 +1,6 @@
-# freeCodeCamp Projects 
+# Projects 
 
-In this repository I will be completing the projects proposed by freeCodeCamp. 
+In this repository I will be posting some projects I completed for studying purposes
 You can access previews for the pages on the following links: 
 
 * Tribute page: https://eloisasmorais.github.io/Tribute%20page/
