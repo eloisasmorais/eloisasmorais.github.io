@@ -7,3 +7,7 @@ Esse é um projeto pessoal feito por mim nas linguagens HTML, CSS e JavaScript. 
 ### The project
 
 This is a personal project made with HTML, CSS and JavaScript. I also used a Dictionary API, which was based off Google Dictionary project, to generate the playlist name from a certain word provided by the user. 
+
+-----------------------
+
+[API link](https://github.com/meetDeveloper/googleDictionaryAPI)
