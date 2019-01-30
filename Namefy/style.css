@@ -16,7 +16,7 @@ h1, h2, h3, h4, h5, h6, button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: space-around;
     font-family: sans-serif;
     background-color: #000;
     color: #fff;
@@ -29,11 +29,13 @@ h1, h2, h3, h4, h5, h6, button {
 
 .header {
     text-align: center;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 35px;
     /* position: relative;
     top: 5vh; */
     /* height: auto;
     margin-bottom: 160px; */
-    margin-top: 15px;
 }
 
 .title {
@@ -49,8 +51,6 @@ h1, h2, h3, h4, h5, h6, button {
     display: inline-block;
     width: 40%;
     text-align: center;
-    position: relative;
-    bottom: 15vh;
     padding: 0 20px;
 }
 
@@ -72,8 +72,12 @@ h1, h2, h3, h4, h5, h6, button {
 }
 
 #playlist-name {
-    display: inline-block;
-    height: 150px;
+    height: 100px;
+    margin-bottom: 150px;
+}
+
+#playlist-name p {
+    height: auto;
 }
 
 /* .generated {
@@ -90,6 +94,8 @@ h1, h2, h3, h4, h5, h6, button {
     font-weight: bold;
     background-color: #1DB954;
     color: #fff;
+    position: relative;
+    bottom: 10vh;
 }
 
 
@@ -132,16 +138,21 @@ and (max-width: 1200px) {
         width: 100%;
     }
 
+    .header {
+        margin-bottom: 70px;
+    }
+
     .title {
         font-size: 1.5em;
     }
 
     .subtitle  {
-        font-size: .7em;
+        font-size: .8em;
     }
     
     .functionality .label {
         font-size: .8em;
+        font-weight: bold;
     }
 
     .functionality {
@@ -152,8 +163,8 @@ and (max-width: 1200px) {
     #user-input {
         height: 40px;
         width: 90%;
-        margin-top: 20px;
-        margin-bottom: 20px;
+        margin-top: 25px;
+        margin-bottom: 80px;
         background-color: #282828;
         color: #fff;
         border: none;
