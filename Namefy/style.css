@@ -11,7 +11,7 @@ h1, h2, h3, h4, h5, h6, button {
 } 
 
 .container {
-    height: 90vh;
+    height: 100vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -43,7 +43,7 @@ h1, h2, h3, h4, h5, h6, button {
     /* height: 50px; */
     /* position: relative; */
     /* top: -285px; */
-    width: 900px;
+    width: 40%;
     text-align: center;
     position: relative;
     bottom: 15vh;
@@ -55,8 +55,8 @@ h1, h2, h3, h4, h5, h6, button {
 }
 
 #user-input {
-    height: 30px;
-    width: 500px;
+    height: 40px;
+    width: 100%;
     margin-top: 20px;
     margin-bottom: 20px;
     background-color: #282828;
