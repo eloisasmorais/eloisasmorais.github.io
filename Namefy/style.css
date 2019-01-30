@@ -126,7 +126,7 @@ a {
 }
 
 @media screen and (min-width: 300px) 
-and (max-width: 400px) {
+and (max-width: 700px) {
     .container {
         overflow: hidden;
         width: 100%;
@@ -184,7 +184,7 @@ and (max-width: 400px) {
     }
 }
 
-@media screen and (min-width: 401px) and (max-width: 1200px) {
+@media screen and (min-width: 701px) and (max-width: 1200px) {
     .functionality {
         width: 90%;
         position: relative;
@@ -216,7 +216,7 @@ and (max-width: 400px) {
     
     .btn {
         position: relative;
-        top: -3vh;
+        top: 15vh;
     }
     .footer p {
         height: auto;
