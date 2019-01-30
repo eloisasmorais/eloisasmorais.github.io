@@ -186,15 +186,38 @@ and (max-width: 600px) {
 
 @media screen and (min-width: 601px) and (max-width: 1200px) {
     .functionality {
+        width: 90%;
         position: relative;
         top: 8vh;
     }
 
+    #user-input {
+        height: 40px;
+        width: 90%;
+        margin-top: 25px;
+        margin-bottom: 80px;
+        background-color: #282828;
+        color: #fff;
+        border: none;
+        padding-left: 15px;
+        letter-spacing: .5px;
+    }
+    
+    #playlist-name {
+        height: 100px;
+        margin-bottom: 100px;
+    }
+    
+    #playlist-name p {
+        height: auto;
+        position: relative;
+        top: 15vh;
+    }
+    
     .btn {
         position: relative;
         top: 5vh;
     }
-
     .footer p {
         height: auto;
         padding: 30px 0;
