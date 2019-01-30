@@ -1,6 +1,4 @@
-# Projetos 
------------
-# Projects 
+# Projetos / Projects 
 
 Nesse repositório postarei alguns projetos pessoais que desenvolvi para fins de estudo.
 Acesse os links abaixo para conferir o resultado.
