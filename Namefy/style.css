@@ -125,4 +125,16 @@ a {
     .functionality {
         width: 100%;
     }
+
+    #user-input {
+        height: 30px;
+        width: 80%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        background-color: #282828;
+        color: #fff;
+        border: none;
+        padding-left: 15px;
+        letter-spacing: .5px;
+    }
 }
