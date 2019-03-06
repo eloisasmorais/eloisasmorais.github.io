@@ -58,7 +58,7 @@ h1, h2, h3, h4, h5, h6, button {
     height: 40px;
     width: 100%;
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 110px;
     background-color:#5a5858;
     color: #fff;
     border-radius: 500px;
@@ -69,7 +69,7 @@ h1, h2, h3, h4, h5, h6, button {
 
 #playlist-name {
     height: 100px;
-    margin-bottom: 150px;
+    margin-bottom: 95px;
 }
 
 #playlist-name p {
@@ -149,7 +149,7 @@ and (max-width: 600px) {
         height: 40px;
         width: 90%;
         margin-top: 25px;
-        margin-bottom: 80px;
+        margin-bottom: 10px;
         border: none;
         padding-left: 15px;
         letter-spacing: .5px;
