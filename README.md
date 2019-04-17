@@ -15,6 +15,6 @@ You can access previews for the pages on the following links.
 * [Documentation page](https://eloisasmorais.github.io/Documentation%20Page/)
 * [Namefy](https://eloisasmorais.github.io/Namefy/)
 
-#Other Projects 
+# Other Projects 
 
 * [Smart Brain](https://github.com/eloisasmorais/smart-brain)
