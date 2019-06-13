@@ -216,7 +216,7 @@ ul {
         height: 1px;
         background-color: #fff;
         margin: 2px auto;
-        animation: aparece-linha 1s linear;
+        animation: aparece-linha .3s linear;
     }
     
     @keyframes aparece-linha {
