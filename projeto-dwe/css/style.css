@@ -25,18 +25,20 @@ header {
 .header-wrapper {
     display: flex;
     flex-direction: column;
-    justify-content: center;
 }
 
+/* .header-wrapper a {
+    margin-left: 20px;
+} */
+
 .logo {
-    width: 103px;
-    height: 103px;
-    align-self: center;
+    max-width: 120px;
+    max-height: 120px;
 }
 
 li {
     list-style: none;
-    margin: 10px 0 10px 15px;
+    margin: 10px 0 10px 0;
     width: auto;
     font-size: 15px;
 }
@@ -129,8 +131,8 @@ ul {
     }
     
     .logo {
-        width: 120px;
-        height: 120px;
+        max-width: 120px;
+        max-height: 120px;
     }
     
     .header-wrapper {
