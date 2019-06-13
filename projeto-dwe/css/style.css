@@ -50,11 +50,17 @@ ul {
     margin: 30px 0;
 }
 
+
 .main-wrapper {
     flex-wrap: wrap;
     align-content: center;
     width: 80%;
     margin: 30px auto 40px auto;
+}
+
+.main-wrapper p {
+    font-weight: 300;
+    color: rgb(65, 63, 63);
 }
 
 .card-container h3 {
@@ -86,6 +92,14 @@ ul {
     padding: .3rem;
     text-align: center;
     transition: filter .8s;
+}
+
+.about {
+    margin: 30px 0 0 0;
+}
+
+.about p {
+    margin: 30px 0;
 }
 
 .footer {
@@ -143,6 +157,14 @@ ul {
         margin: 0 auto;
     } 
 
+    h1 {
+        font-size: 2em;
+    }
+    
+    h2 {
+        font-size: 1.5em; 
+    }
+
     .main-wrapper {
         display: flex;   
         flex-wrap: wrap;
@@ -150,7 +172,17 @@ ul {
         width: 80%;
         margin: 0px auto 100px auto;
     }
+
+    .main-wrapper h1,
+    .main-wrapper h2 , 
+    .main-wrapper p {
+        text-align: justify;
+    }
+
     
+    .main-wrapper p {
+        margin: 20px 0;
+    }
 
     .card-container {
         width: 45%;
@@ -189,6 +221,14 @@ ul {
         transition: filter .8s;
     }
     
+    .about ul {
+        margin: 0;
+    }
+
+    .about li {
+        margin: 0 20px 0 0;
+    }
+
     /* Pseudo-classes */
     .card-container:hover h3 {
         visibility: visible;
