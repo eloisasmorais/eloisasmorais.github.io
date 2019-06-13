@@ -14,3 +14,7 @@ You can access previews for the pages on the following links.
 * [Form page](https://eloisasmorais.github.io/Form%20survey/) 
 * [Documentation page](https://eloisasmorais.github.io/Documentation%20Page/)
 * [Namefy](https://eloisasmorais.github.io/Namefy/)
+
+# Other Projects 
+
+* [Smart Brain](https://github.com/eloisasmorais/smart-brain)
